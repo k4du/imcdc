@@ -1,0 +1,17 @@
+--- 
+applications: 
+  .: 
+    services: 
+      imcdc: 
+        type: mysql
+    url: igreja-metodista-0.1.war
+    name: imcdc
+    infra: aws
+    mem: 2G
+    framework: 
+      info: 
+        exec: 
+        mem: 512M
+        description: Java SpringSource Grails Application
+      name: grails
+    instances: 1
