@@ -1,0 +1,11 @@
+*.class
+.classpath
+.project
+.settings
+.DS_Store
+/target
+*.swp
+/node_modules
+.~lock.*
+.link_to_grails_plugins
+/target-eclipse
